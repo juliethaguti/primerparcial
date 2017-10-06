@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1507249256 source:d:\parcialgutierrezgomez\contratacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"contratacion.h"
+	"pantalla.h"
+
+1507241335 d:\parcialgutierrezgomez\validar.h
+
+1507247828 d:\parcialgutierrezgomez\contratacion.h
+
+1507249749 d:\parcialgutierrezgomez\pantalla.h
+
+1507249749 source:d:\parcialgutierrezgomez\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"contratacion.h"
+	"pantalla.h"
+
+1507246686 source:d:\parcialgutierrezgomez\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"pantalla.h"
+
+1507241335 source:d:\parcialgutierrezgomez\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
