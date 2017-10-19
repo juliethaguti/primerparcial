@@ -34,3 +34,53 @@
 	<string.h>
 	"validar.h"
 
+1508438253 source:c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"contratacion.h"
+	"pantalla.h"
+	"informes.h"
+
+1508429972 c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\validar.h
+
+1508098942 c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\contratacion.h
+	"pantalla.h"
+
+1507784407 c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\pantalla.h
+
+1508432431 source:c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"pantalla.h"
+	"contratacion.h"
+
+1508431273 source:c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1508438253 source:c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\contratacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"contratacion.h"
+	"pantalla.h"
+	"informes.h"
+
+1508431824 c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\informes.h
+
+1508438253 source:c:\users\julieta\documents\utn\laboratorio1\primerparcial-master\parcialgutierrezgomez\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+	"pantalla.h"
+	"contratacion.h"
+	"informes.h"
+

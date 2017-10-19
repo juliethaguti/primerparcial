@@ -22,9 +22,9 @@ typedef struct
 #define CANTIDAD_PANTALLAS 3
 
 int pant_initArray(sPantalla* arrayPantallas, int length);
-int pant_cargarPantalla (sPantalla* arrayPantalla, int index,int longitudArray);
-int pant_buscaIndiceLibre(sPantalla* PantallasArray,int longitud);
+int pant_cargarPantalla (sPantalla* arrayPantalla,int longitudArray);
 void pant_printpantallas(sPantalla *pantallasArray,int longitud);
 int pant_buscaIndiceOcupado(sPantalla* PantallaArray, int longitud, int id);
-int pant_modificapantalla(sPantalla* arrayPantalla, int indice);
+int pant_modificapantalla(sPantalla* arrayPantalla, int idPantalla, int longitud);
 int pant_bajapantalla(sPantalla* PantallaArray, int id, int longitud);
+int pant_encuentraPantalla(sPantalla *pantallaArray,int longitud, int idPantalla);

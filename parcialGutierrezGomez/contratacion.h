@@ -5,7 +5,6 @@ typedef struct
 {
     char cuitCliente[15];
     char nombreArchivo [51];
-    char precio [15];
     int dias;
     int idContratacion;
     int flagContratacion;
@@ -14,6 +13,8 @@ typedef struct
 
 #endif // CONTRATACION_H_INCLUDED
 
+#include "pantalla.h"
+
 #define SIN_CONTRATACION 0
 #define CON_CONTRATACION 1
 
@@ -21,8 +22,9 @@ typedef struct
 
 int contra_initArray(sContratacion* arrayContrataciones, int length);
 int contra_cargarArchivo (sContratacion* arrayContratacion, int idPantalla,int longitudArray);
-int contra_buscaIndiceLibre(sContratacion* contratacionArray,int longitud);
-void contra_printArchivos(sContratacion *contratacionArray,int longitud);
-int contra_buscaIndiceOcupado(sContratacion* contratacionArray, int longitud, int id);
-int contra_modificaArchivo(sContratacion* contratacionArray,int idPantalla);
-sContratacion* Contratacions_find(sContratacion* pContratos, int longitud, int idContratacion);
+void contra_printPantallasSinContratar(sContratacion *contratacionArray,int longitudContratacion, sPantalla* pantallasArray, int longitudPantallas);
+int contra_modificaContratacion(sContratacion* contratacionArray,int longitud, sPantalla *pantallaArray, int longitudPant);
+int contra_bajaContrato(sContratacion* contratacionArray, int longitud, sPantalla *pantallasArray, int longitudPant);
+int contra_buscaIdPantalla(sContratacion contratoArray[],int longitud,int idPantalla);
+int contra_consultaFacturacion(sContratacion *contratoArray,int longitud, sPantalla *pantallaArray, int longitudPanta);
+int contra_listarContrataciones(sContratacion *contratoArray, int longitudContra, sPantalla *pantallaArray, int longitudPant);
